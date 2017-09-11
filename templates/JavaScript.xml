@@ -1,24 +1,14 @@
 <templateSet group="JavaScript">
-  <template name="it" value="it('$TEST_NAME$', () =&gt; {&#10;    $END$&#10;});" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="TEST_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="fcomp" value="import React from 'react';&#10;&#10;const $FILE_NAME$ = () =&gt; {&#10;    return (&#10;        &lt;$DEFAULT_TAG$$END$&gt;$FILE_NAME$&lt;/$DEFAULT_TAG$&gt;&#10;    );&#10;};&#10;&#10;export default $FILE_NAME$;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT_TAG" expression="" defaultValue="div" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="desc" value="describe('$TEST_NAME$', () =&gt; {&#10;    $END$&#10;});" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="TEST_NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="comp" value="import React, {Component} from 'react';&#10;&#10;class $FILE_NAME$ extends Component {&#10;    render() {&#10;        return (&#10;            &lt;div&gt;$FILE_NAME$$END$&lt;/div&gt;&#10;        );&#10;    }&#10;}&#10;&#10;export default $FILE_NAME$;" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="FILE_NAME" expression="" defaultValue="fileNameWithoutExtension()" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="fcomp" value="import React from 'react';&#10;&#10;const $COMPONENT_NAME$ = () =&gt; {&#10;    return (&#10;        &lt;div&gt;$COMPONENT_NAME$$END$&lt;/div&gt;&#10;    );&#10;};&#10;&#10;export default $COMPONENT_NAME$;" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="COMPONENT_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+  <template name="comp" value="import React, {Component} from 'react';&#10;&#10;class $FILE_NAME$ extends Component {&#10;    render() {&#10;        return (&#10;            &lt;$DEFAULT_TAG$$END$&gt;$FILE_NAME$&lt;/$DEFAULT_TAG$&gt;&#10;        );&#10;    }&#10;}&#10;&#10;export default $FILE_NAME$;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT_TAG" expression="" defaultValue="div" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
