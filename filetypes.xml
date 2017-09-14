@@ -1,9 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".gitreview" type="PLAIN_TEXT" />
-      <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="LoginForm" type="PLAIN_TEXT" />
+      <mapping pattern="Confirm" type="PLAIN_TEXT" />
+      <mapping pattern=".gitreview" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
