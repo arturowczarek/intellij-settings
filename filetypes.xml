@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="authReducer" type="PLAIN_TEXT" />
       <mapping pattern="LoginInput" type="PLAIN_TEXT" />
       <mapping pattern="LoginForm" type="PLAIN_TEXT" />
       <mapping pattern="Confirm" type="PLAIN_TEXT" />
