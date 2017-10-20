@@ -1,13 +1,11 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="LoginInput" type="PLAIN_TEXT" />
-      <mapping pattern="AppColors" type="PLAIN_TEXT" />
-      <mapping pattern="LoginForm" type="PLAIN_TEXT" />
-      <mapping pattern="EditLocationSection" type="PLAIN_TEXT" />
-      <mapping pattern="Confirm" type="PLAIN_TEXT" />
-      <mapping pattern="authReducer" type="PLAIN_TEXT" />
       <mapping pattern=".gitreview" type="PLAIN_TEXT" />
+      <mapping pattern="instance-group" type="PLAIN_TEXT" />
+      <mapping pattern="LoginForm" type="PLAIN_TEXT" />
+      <mapping pattern="Confirm" type="PLAIN_TEXT" />
+      <mapping ext="t" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
