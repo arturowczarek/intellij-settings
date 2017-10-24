@@ -18,8 +18,13 @@
       <mask>*.ht</mask>
       <mask>*.htm</mask>
       <mask>*.html</mask>
-      <mask>*.java</mask>
       <mask>*.pom</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.ja</mask>
+      <mask>*.jav</mask>
+      <mask>*.java</mask>
+      <mask>p</mask>
       <mask>po</mask>
       <mask>pom</mask>
       <mask>pom.</mask>
