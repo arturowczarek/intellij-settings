@@ -7,7 +7,6 @@
       <mapping pattern="profileSaved" type="PLAIN_TEXT" />
       <mapping pattern="Confirm" type="PLAIN_TEXT" />
       <mapping ext="t" type="PLAIN_TEXT" />
-      <mapping ext="php" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
