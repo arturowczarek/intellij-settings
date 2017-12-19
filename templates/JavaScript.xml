@@ -6,7 +6,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="comp" value="import React, {Component} from 'react';&#10;&#10;class $FILE_NAME$ extends Component {&#10;    render() {&#10;        return (&#10;            &lt;$DEFAULT_TAG$$END$&gt;$FILE_NAME$&lt;/$DEFAULT_TAG$&gt;&#10;        );&#10;    }&#10;}&#10;&#10;export default $FILE_NAME$;&#10;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="comp" value="import * as React from 'react';&#10;&#10;interface Props {&#10;&#10;}&#10;&#10;export class $FILE_NAME$ extends React.Component&lt;Props&gt; {&#10;    render() {&#10;        return (&#10;            &lt;$DEFAULT_TAG$$END$&gt;$FILE_NAME$&lt;/$DEFAULT_TAG$&gt;&#10;        );&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="FILE_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <variable name="DEFAULT_TAG" expression="" defaultValue="div" alwaysStopAt="true" />
     <context>
